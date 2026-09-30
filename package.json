@@ -1,0 +1,12 @@
+{
+  "name": "receiptlens",
+  "version": "0.4.1",
+  "private": true,
+  "scripts": {
+    "test": "node --test test/page.test.cjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT"
+}
