@@ -4,10 +4,11 @@ A dependency-free, read-only **Solana Devnet** transaction inspector.
 
 ## Demo
 
-Expected Pages address after deployment: https://tomlemur57-ux.github.io/receiptlens/
+Live MVP: https://tomlemur57-ux.github.io/receiptlens/
 
-The presence of this URL in the README is not evidence that deployment succeeded.
-The publisher verifies the deployed HTML hash and saves its result locally.
+The hosted page and its public sample lookup were verified in a browser on
+5 October 2026. The sample returned a finalized Devnet receipt at slot 505834809;
+this live observation is separate from the synthetic tests below.
 
 Open `docs/index.html` for the complete auditable source. It calls only
 `getTransaction` and `getSignatureStatuses` at the fixed public Solana Devnet RPC.
@@ -36,7 +37,7 @@ synthetic receipts during this repair; see VALIDATION.md.
 
 ## Provenance
 
-AI-authored prototype prepared for the repository owner. Public demonstration
-sample activity belongs to an unrelated third party. It is not the owner's income.
+Public demonstration sample activity belongs to an unrelated third party.
+It is not the owner's income.
 Not affiliated with Solana, Superteam or Colosseum. No prize or accepted submission
 is implied. MIT license.
