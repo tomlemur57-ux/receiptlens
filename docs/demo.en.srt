@@ -1,0 +1,44 @@
+1
+00:00:00,000 --> 00:00:12,000
+A Solana signature is useful evidence, but by itself it is hard to read.
+ReceiptLens turns Devnet data into a compact, human-readable receipt.
+
+2
+00:00:12,000 --> 00:00:28,000
+Enter a public Solana Devnet transaction signature.
+ReceiptLens is read-only: no wallet, key entry, signing, or submission.
+
+3
+00:00:28,000 --> 00:00:48,000
+The result is finalized: slot 505834809, block time 2026-09-30 08:00:35 UTC.
+Fee 15,500 lamports, 24,547 compute units, 10 accounts, 1 signer, 15 logs.
+
+4
+00:00:48,000 --> 00:01:08,000
+ReceiptLens identifies ComputeBudget, Associated Token Account, Tokenkeg, and Memo.
+The sample shows 164,398,058 SPL token base units and a separate -0.0000155 SOL fee.
+
+5
+00:01:08,000 --> 00:01:28,000
+The product is deliberately conservative and does not guess missing metadata.
+Unsafe balances and failed token instructions are omitted; fees and rent remain visible.
+
+6
+00:01:28,000 --> 00:01:45,000
+This is public Solana Devnet test activity, not real income or payment proof.
+An instruction amount is not claimed as a net recipient credit.
+
+7
+00:01:45,000 --> 00:02:05,000
+ReceiptLens reports public RPC evidence at inspection time.
+A finalized transaction does not prove a real-world commercial obligation was satisfied.
+
+8
+00:02:05,000 --> 00:02:20,000
+The static MVP uses getTransaction and getSignatureStatuses at fixed public Devnet RPC.
+No custom program ID. Local tests and setup instructions are included.
+
+9
+00:02:20,000 --> 00:02:30,000
+ReceiptLens: read a Solana transaction like a receipt.
+Try the public Devnet MVP and inspect the source. No wallet, signing, payment, or submission flow.

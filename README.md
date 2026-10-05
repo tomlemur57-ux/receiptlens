@@ -10,6 +10,11 @@ The hosted page and its public sample lookup were verified in a browser on
 5 October 2026. The sample returned a finalized Devnet receipt at slot 505834809;
 this live observation is separate from the synthetic tests below.
 
+[Watch the 2:30 captioned demo](https://tomlemur57-ux.github.io/receiptlens/demo.mp4).
+The video is an edited screenshot walkthrough of the real hosted interface,
+including the finalized public sample and invalid-input state. It is not a
+continuous screen recording. [English captions](docs/demo.en.srt) are included.
+
 Open `docs/index.html` for the complete auditable source. It calls only
 `getTransaction` and `getSignatureStatuses` at the fixed public Solana Devnet RPC.
 No wallet, key entry, signing, payment, transfer, airdrop or transaction submission
